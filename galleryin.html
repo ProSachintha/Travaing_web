@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Pearl of the Indian Ocean</title>
+
+    <link rel="stylesheet" href="css/gal.css">
+</head>
+<body>
+    <div >
+        <img src="img/g1.png" alt="" id="footer3" >
+        <img src="img/h1.png" alt="" id="footer2">
+        <img src="img/h3.png" alt="" id="footer1" >
+       
+    </div>
+    <div id="heder"><h1>GALLERY OF <span id="title"></span></h1></div>
+    <div class="gal">
+        
+        
+        <div class="row">
+            <a href="#" onclick="toingal()" >
+                <div class="img1">
+                    
+                    <input type="file" value="upload">
+                 </div>
+            </a>
+            
+        </div>
+        
+    </div>
+    <script>
+        document.querySelector('#title').innerHTML=localStorage.getItem("dname");
+
+          
+        
+    </script>
+    
+
+
+</body>
+</html>

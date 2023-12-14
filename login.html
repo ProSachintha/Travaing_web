@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Pearl of the Indian Ocean</title>
+
+    <link rel="stylesheet" href="css/login.css">
+    
+    
+</head>
+<body>
+    <div>
+        <div >
+            <h2>WELCOME TO "TOUR LANKA" OFFICIAL WEBSITE</h2>
+        
+            <h3>We will help you make your trip without a hitch.</h3>
+            <hr>
+        </div>
+    
+        <div class="logbody">
+            <img src="./img/10.png" alt="" id="allmap">
+        </div>
+        <div class="loginup">
+            <div class="logbox">
+            
+                <div class="bottonbox">
+                    <div id="btn"></div>
+                    <button type="button" class="inup" onclick="signin()">Sign in</button>
+                    <button type="button" class="inup"onclick="signup()" >Sign up</button>
+                    
+                </div>
+                <div >
+                    <form action="#" id="signin"class="form1">
+                        <input type="text" name="uname" placeholder="USER NAME" class="input" id="lun" required>
+                        <br><br>
+                        <input type="password" name="password" placeholder="PASSWORD" class="input" id="lpass" required>
+                        <br><br>
+                        <button type="submit" class="login" id="loginbut" onclick="login()">Sign in</button>
+<label for="msg" id="lblmsg">Please Sign Up First</label>
+                    </form>
+
+
+                    <form action="" id="signup" class="form1">
+                        <input type="text" id="UName" onkeyup="validate();" placeholder="User Name " class="input"/>
+                        <br><div id="errUName"></div><br>
+                        <input type="text" id="email" onkeyup="validate();" placeholder="Email" class="input"/>
+                        <br><div id="errEmail"></div><br>
+                        <input type="password" id="pass" onkeyup="validate();" placeholder="Password" class="input"/>
+                        <br><div id="errPassword"></div><br>
+                        <input type="password" id="confirm" onkeyup="validate();" placeholder="Confirm Password" class="input"/>
+                        <br><div id="errConfirm"></div><br>
+                        <button type="submit" class="login" id="signupbut" onclick="signingup()" onclick="validate();finalValidate();">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="js/login.js"></script>
+
+</body>
+</html>
