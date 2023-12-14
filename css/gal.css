@@ -1,0 +1,109 @@
+body{
+    background: url(../img/s1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    
+    
+}
+.gal{
+    width: 90%;
+    height: 3370;
+    margin: 5% auto;
+    background: rgb(180, 180, 180,0.3);
+    overflow: hidden;
+    
+    
+
+}
+.row{
+    width: 90%;
+    height: 250;
+    margin: 5% auto;
+    padding-top: 5%;
+    background: rgb(255, 10, 10,0.2);
+    overflow: hidden;
+}
+.img1{
+    width: 20%;
+    height: 30%;
+    margin-left: 5%;
+    position: absolute;
+    background: rgba(22, 255, 72, 0.2);
+}
+.img2{
+    width: 20%;
+    height: 30%;
+    margin-left: 30%;
+    position: absolute;
+    background: rgba(22, 255, 72, 0.2);
+}
+.img3{
+    width: 20%;
+    height: 30%;
+    margin-left: 55%;
+    position: absolute;
+    background: rgba(22, 255, 72, 0.2);
+}
+#footer2{
+    position: fixed;
+    margin-left: 80%;
+    margin-top:150;
+    z-index: 1;
+   
+}
+#footer1{
+    position: fixed;
+    margin-left: -20;
+    margin-top:180;
+    z-index: 1;
+    height: 500;
+    
+}
+#footer3{
+    position: fixed;
+    margin-left: -20;
+    margin-top:530;
+    z-index: 1;
+    width: 100%;
+    height: 80;
+    
+}
+ .distric{
+     background:rgba(255, 255, 255, 0.5);
+    text-align:center;
+    position: absolute;
+    
+    opacity: 0;
+       
+    height: 195; 
+    width: 270;
+    z-index: 1;
+    
+}
+.distric:hover{
+    opacity: 1;
+    z-index: 0;
+    
+
+}
+.distric h2{
+    margin-top: 35%;
+}
+#heder{
+    margin-top: -30;
+    margin-left: 39%;
+    position: fixed;
+    z-index: 9999;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    font-family:cursive;
+}
+.img{
+    width: 260;
+    height: 185;
+    margin: 5 auto;
+    margin-left: 5;
+}

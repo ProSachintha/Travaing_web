@@ -1,0 +1,31 @@
+body{
+    background: url(../img/s1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.eventinput{
+    width: 180px;
+    height: 25px;
+    text-align: center;
+}
+.formtab{
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 30%;
+    
+    background: rgb(131, 129, 129,0.5);
+}
+.form{
+    margin-left: 25%;
+    padding-top: 70px;
+    
+}
+#add{
+    margin-left: 30%;
+    width: 70px;
+    border-radius:4px;
+}
+#provings,#distric{
+    text-align: center;
+}

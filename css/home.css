@@ -1,0 +1,57 @@
+body{
+    background: url(../img/s1.jpg);
+    background-size: cover;
+    background-attachment: fixed;      
+   
+  }
+  
+  
+  
+  #provings{
+    margin-left: 50%;
+    margin-top: -45% ;
+    position: absolute;
+    
+    
+  }
+  #mapbut{
+    margin-left: 10;
+    position: relative;
+    background: none;
+    
+  
+  
+  }
+  
+  .st0{
+    fill: blue;
+  }
+  
+  .st0:hover{
+    fill:maroon ;
+  }
+  
+  #city1,#city2,#city3,#city4,#city5{
+     width: 200%;
+     height: 200px;
+     border-bottom: solid;
+     position: relative;
+     background: rgb(180,180, 180,0.5);
+     padding: 2px;
+     overflow: hidden;
+     visibility:hidden;
+  }
+
+  
+
+  #msg{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 760px;
+    color: rgb(255, 0, 0);
+    background: white;
+  }
+  
+  .place{
+    list-style-type: none;
+  }

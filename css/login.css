@@ -1,0 +1,117 @@
+
+        body{
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/s1.jpg );
+            background-size: cover;
+            background-color: #ff105f;
+        }
+        h2,h3{
+            color: white;
+            text-align: center;
+        }
+         .loginup{
+            width: 50%;
+            height: 100%;
+            position: absolute;
+           
+            margin-left: 650px;
+            
+        }
+       
+        .logbox{
+            width: 380px;
+            height: 580px;
+            margin: 6% auto;
+            position: relative;
+            background: rgb(180,180, 180,0.5);
+            padding: 2px;
+            overflow: hidden;
+        }
+        .bottonbox{
+            width: 220px;
+            margin: 35px auto;
+            position: relative;
+            box-shadow: 0 0 20px #0000001f;
+            border-radius: 30px;
+            
+            
+        }
+       .inup{
+            padding: 10px 30px;
+            cursor: pointer;
+            background:transparent;
+            border: 0;
+            outline: none;
+            position: relative;
+            
+        }
+        
+        
+        
+         
+        #btn{
+            position: absolute;
+            width: 110px;
+            height: 100%;
+            background: linear-gradient(to right,#ff105f,#ffad06);
+            border-radius: 30px;
+            transition: 0.5s;
+
+        }
+        .form1{
+            top: 180px;
+            position: absolute;
+            width: 280px;
+            transition: 0.5s;
+        }
+        .input{
+            width: 100%;
+            padding: 10px 0;
+            margin: 5px 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #999;
+            outline: none;
+            background: transparent;
+            
+
+        }
+        ::placeholder{
+            color: blue;
+        }
+        .login{
+            width: 85%;
+            padding: 10px 30px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+            background: linear-gradient(to right,#ff105f,#ffad06);
+            border: 0;
+            outline: none;
+            border-radius: 30px;
+        }
+        #signin{
+            left: 50px;
+            margin-top: 10%;
+        }
+        #signup{
+            left: 450px;
+        }
+        #allmap{
+            position: absolute;
+            width: 400px;
+            height: 620px;
+            margin-left: 100px;
+            padding-top: -100px;
+        }
+        #signupbut{
+            visibility: hidden;
+        }
+        #loginbut{
+            visibility: hidden;
+        }
+        #lblmsg{
+            margin-left: 20%;
+            background: red;
+        }
+  
+  

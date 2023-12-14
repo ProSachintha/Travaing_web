@@ -1,0 +1,32 @@
+body{
+    background: url(..//img/s1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width: 95%;
+    height: 100%;
+}
+
+h1{text-align:center;}
+.but{
+    padding-left: 25px;
+}
+#calender{
+    width: 525px;
+    height: 480px;
+    background: rgb(128, 128, 128,0.7);
+    margin-top: 8%;
+    margin-left: 30%;
+}
+#tab1{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    height: 95%;
+}
+#tab1 td{
+    color: white;
+}
